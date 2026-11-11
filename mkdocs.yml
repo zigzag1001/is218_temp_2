@@ -1,0 +1,19 @@
+site_name: Career Research | Portfolio Plan
+site_description: Source-based research and decisions for an IS218 portfolio
+docs_dir: docs
+site_dir: site
+strict: true
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Overview: index.md
+  - Employer sources: employers.md
+  - Portfolio plan: portfolio-plan.md
+  - Peer review and submission: review.md
