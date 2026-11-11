@@ -17,8 +17,8 @@ Open the address printed by MkDocs. Validate the site with:
 python -m mkdocs build --strict
 ```
 
-## Publish separately
+## Publish
 
-Place this folder's contents in the root of a **separate GitHub repository**, commit and push them, then run `python -m mkdocs gh-deploy` from that repository. In its GitHub settings, set Pages to deploy from the `gh-pages` branch. See the [official publishing guide](https://squidfunk.github.io/mkdocs-material/publishing-your-site/). The existing root repository's automatic workflow publishes only the game research site; it does not deploy this career site.
+GitHub Actions builds this MkDocs site and deploys it to GitHub Pages whenever changes are pushed to `main`. You can also start a deployment manually from the repository's **Actions** tab. The Pages site is available at <https://zigzag1001.github.io/is218_temp_2/>.
 
 After both sites are published, add the actual career site/repository URLs to the game research site's overview and the actual programming site/repository URLs to the career site's overview. Add reciprocal links on both published sites. Do not claim publication or peer review until they happen. Keep the full career comparison, personal eligibility circumstances, and reflection in the private Canvas submission.
